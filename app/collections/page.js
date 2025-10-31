@@ -1,13 +1,12 @@
 export default function CollectionsPage() {
   return (
     <main className="min-h-screen bg-gray-50 text-gray-800 font-sans">
-      {/* Header Section */}
       <section className="text-center py-16 bg-black text-white">
         <h1 className="text-5xl font-bold mb-4">Customer Details</h1>
         <p className="text-lg text-gray-300">We’d love to know you better for proper collections Thank's.</p>
       </section>
 
-      {/* Form Section */}
+      
       <section className="flex justify-center items-center py-16 px-6">
         <form className="bg-white shadow-lg rounded-2xl p-10 w-full max-w-lg space-y-6">
           <h2 className="text-2xl font-semibold text-center text-gray-700">
@@ -27,7 +26,7 @@ export default function CollectionsPage() {
             <label className="block text-gray-600 mb-2">Email Address</label>
             <input
               type="email"
-              placeholder="example@email.com"
+              placeholder="@email.com"
               className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-black"
             />
           </div>
@@ -36,7 +35,7 @@ export default function CollectionsPage() {
             <label className="block text-gray-600 mb-2">Phone Number</label>
             <input
               type="tel"
-              placeholder="+234 812 345 6789"
+              placeholder="+234 "
               className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-black"
             />
           </div>

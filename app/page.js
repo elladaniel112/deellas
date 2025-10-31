@@ -4,21 +4,19 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="relative min-h-screen overflow-hidden text-white font-sans">
-      {/* 🔹 Background Image */}
+    
       <div className="absolute inset-0">
         <Image
-          src="/boy.jpg" // background image (replace with your photo)
+          src="/boy.jpg" 
           alt="DEELLAS Fashion Background"
           fill
           className="object-cover brightness-100"
           priority
         />
       </div>
-
-      {/* 🔹 Soft gradient for text visibility */}
       <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent"></div>
 
-      {/* 🔹 Text Content */}
+      
       <div className="relative z-10 flex items-center justify-start min-h-screen px-10 md:px-24">
         <div className="max-w-3xl text-left space-y-6">
           <h1 className="text-6xl md:text-8xl font-extrabold tracking-wide drop-shadow-2xl">
@@ -64,7 +62,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* 🔹 Optional small tagline at bottom right */}
+      
       <div className="absolute bottom-6 right-8 text-sm md:text-base text-gray-300 italic">
         “Redefining style, one outfit at a time.”
       </div>

@@ -1,15 +1,15 @@
 export default function ShopPage() {
   return (
     <main className="min-h-screen bg-gray-100 text-gray-800 font-sans">
-      {/* Header Section */}
+      
       <section className="text-center py-16 bg-black text-white">
         <h1 className="text-5xl font-bold mb-4">Welcome to Deellas Shop</h1>
         <p className="text-lg">Explore our latest fashion collections</p>
       </section>
 
-      {/* Product Grid Section */}
+      
       <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 p-10">
-        {/* Product 1 */}
+        
         <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition-transform">
           <img src="/col1.jpg" alt="Product 1" className="object-cover w-full h-64" />
           <div className="p-6">
@@ -57,7 +57,7 @@ export default function ShopPage() {
           </div>
         </div>
 
-        {/* Product 5 */}
+        
         <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition-transform">
           <img src="/col5.jpg" alt="Product 5" className="object-cover w-full h-64" />
           <div className="p-6">
@@ -69,7 +69,7 @@ export default function ShopPage() {
           </div>
         </div>
 
-        {/* Product 6 */}
+      
         <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition-transform">
           <img src="/col6.jpg" alt="Product 6" className="object-cover w-full h-64" />
           <div className="p-6">
