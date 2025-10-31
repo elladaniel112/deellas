@@ -33,8 +33,8 @@ export default function Navbar() {
         <div className="md:hidden flex flex-col items-center bg-black/80 text-white space-y-4 py-4">
           <Link href="/">Home</Link>
           <Link href="#about">About</Link>
-          <Link href="#collections">Collection</Link>
-          <Link href="#contact">Contact</Link>
+          <Link href="/collections">Collection</Link>
+          <Link href="/contact">Contact</Link>
         </div>
       )}
     </nav>
